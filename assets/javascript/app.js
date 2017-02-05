@@ -1,7 +1,8 @@
 
+API_KEY = AIzaSyAi8G-NenSaplJFPhOVcdtMA8G7J-AotHc;
+// key=API_KEY;
   // Google Map Location
   var myCenter = new google.maps.LatLng(40.613528, -74.362659);
-
 
 
   function initialize() {
@@ -10,7 +11,8 @@
     zoom: 12,
     scrollwheel: false,
     draggable: false,
-    mapTypeId: google.maps.MapTypeId.ROADMAP
+    mapTypeId: google.maps.MapTypeId.ROADMAP,
+    key : API_KEY
     };
 
   var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
